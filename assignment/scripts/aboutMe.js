@@ -69,7 +69,20 @@ console.log(mostPets);
 //      "Third is the one with the polka dot dress" if your lucky number is 3
 //      Otherwise, log "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
-
+switch (luckyNumber) {
+    case 1:
+        console.log("First is the worst");
+        break;
+    case 2:
+        console.log('Second is the best');
+        break;
+    case 3:
+        console.log('Third is the one with the polka dot dress');
+        break;
+    default:
+        console.log('Luck is what happens when preparation meets opportunity');
+        break;
+}
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
 

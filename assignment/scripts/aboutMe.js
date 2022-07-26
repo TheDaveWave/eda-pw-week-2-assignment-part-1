@@ -61,7 +61,8 @@ if (pets < allowedPets) {
 // assigns the highest value to `mostPets`. There's several possibilities --
 // be sure to think through all the scenarios. 
 // console.log `mostPets` after the conditional has run.
-
+let mostPets = Math.max(pets,friendsPets);
+console.log(mostPets);
 // 17 - Write a *switch* statement that logs:
 //      "First is the worst" if your lucky number is 1
 //      "Second is the best" if your lucky number is 2

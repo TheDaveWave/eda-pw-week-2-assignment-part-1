@@ -84,5 +84,4 @@ switch (luckyNumber) {
         break;
 }
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
-
-
+console.log(adventurous === true ? 'Adventures are great!' : 'How about we stay home?');
